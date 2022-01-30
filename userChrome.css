@@ -1,0 +1,100 @@
+/* Move container color for tab to bottom */
+.tabbrowser-tab > .tab-stack > .tab-background > .tab-context-line {
+  background-color: var(--identity-icon-color) !important;
+  height: 2px !important;
+  border-radius: 0px 0px var(--tab-border-radius) var(--tab-border-radius) !important;
+  margin: 34px 0px 0px !important;
+}
+
+/* Position tab close button better and hide while unused */
+.tab-close-button {
+  margin-right: 0 !important;
+}
+
+.tabbrowser-tab .tab-close-button {
+  display: none !important;
+}
+
+.tabbrowser-tab:hover .tab-close-button {
+  display: block !important;
+}
+
+/* Hide close button on pinned tabs */
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
+  > #tabbrowser-arrowscrollbox
+  > .tabbrowser-tab[pinned]
+  .tab-close-button {
+  display: none !important;
+}
+
+/* Hide bookmark star in url bar */
+#star-button-box {
+  display: none !important;
+}
+
+/* Custom font */
+#navigator-toolbox {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
+}
+
+/* Extension page notification */
+#identity-box.extensionPage box {
+  padding-inline: var(--urlbar-icon-padding) !important;
+  background-color: transparent !important;
+}
+
+#identity-box.extensionPage:hover box {
+  background-color: var(--urlbar-box-hover-bgcolor) !important;
+  color: var(--urlbar-box-hover-text-color) !important;
+}
+
+#identity-box.extensionPage {
+  width: 28px !important;
+}
+
+#identity-box.extensionPage label {
+  display: none !important;
+}
+
+/* Pinned tabs spacing ft regular tabs */
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
+  > #tabbrowser-arrowscrollbox
+  > .tabbrowser-tab[first-visible-unpinned-tab] {
+  margin-inline-start: 0px !important;
+}
+
+/* Hide non-fullscreen spacer for tabs */
+.titlebar-spacer {
+  /* display: none !important; */
+  width: 1px !important;
+}
+
+/* Hide search one time uses */
+.search-one-offs {
+  display: none !important;
+}
+
+/* Context menu */
+#contentAreaContextMenu {
+  --panel-background: var(--arrowpanel-background) !important;
+  --panel-color: var(--arrowpanel-color) !important;
+  --panel-border-color: var(--arrowpanel-border-color) !important;
+  --panel-border-radius: var(--arrowpanel-border-radius) !important;
+  --panel-padding: 8px !important;
+
+  box-shadow: none !important;
+}
+
+#context-navigation,
+#context-sep-navigation {
+  display: none !important;
+}
+
+[id*='context-'] {
+  background-color: transparent !important;
+  border-radius: 4px !important;
+}
+
+[id*='context-']:hover {
+  background-color: var(--panel-item-hover-bgcolor) !important;
+}
