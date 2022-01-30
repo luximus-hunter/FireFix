@@ -4,6 +4,11 @@ Small fixes for the FireFox UI to make it more consistant.
 
 ![preview](./images/preview.png)
 
+## Table of contents
+
+- [Features](#Features)
+- [Install](#Install)
+
 ## Features
 
 ### Container tab color
@@ -62,6 +67,14 @@ _To disable, open `userContent.css` and remove section 1_
 4. Copy the `chrome` folder from the project into your profile folder.
 5. Restart FireFox.
 
-![](./images/install/about-support.png)
+### Download project
+
+![download](./images/install/download.png)
+
+_Button to download the project_
+
+### `about:support`
+
+![about-support](./images/install/about-support.png)
 
 _Button to your profile folder on `about:support`_
