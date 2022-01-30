@@ -1,4 +1,5 @@
-/* Move container color for tab to bottom */
+/*# Section 1 */
+/** Container color line */
 .tabbrowser-tab > .tab-stack > .tab-background > .tab-context-line {
   background-color: var(--identity-icon-color) !important;
   height: 2px !important;
@@ -6,11 +7,14 @@
   margin: 34px 0px 0px !important;
 }
 
-/* Position tab close button better and hide while unused */
+/*# Section 2 */
+/** Tab close button */
+/* Fix spacing on normal tabs */
 .tab-close-button {
   margin-right: 0 !important;
 }
 
+/* Hide close button when not hovering over the tab */
 .tabbrowser-tab .tab-close-button {
   display: none !important;
 }
@@ -27,17 +31,8 @@
   display: none !important;
 }
 
-/* Hide bookmark star in url bar */
-#star-button-box {
-  display: none !important;
-}
-
-/* Custom font */
-#navigator-toolbox {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
-}
-
-/* Extension page notification */
+/*# Section 3 */
+/** Extension page icon */
 #identity-box.extensionPage box {
   padding-inline: var(--urlbar-icon-padding) !important;
   background-color: transparent !important;
@@ -56,25 +51,28 @@
   display: none !important;
 }
 
-/* Pinned tabs spacing ft regular tabs */
+/*# Section 4 */
+/** Pinned tabs spacing */
 #tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
   > #tabbrowser-arrowscrollbox
   > .tabbrowser-tab[first-visible-unpinned-tab] {
   margin-inline-start: 0px !important;
 }
 
-/* Hide non-fullscreen spacer for tabs */
+/*# Section 5 */
+/** Spacing in front of tabs */
 .titlebar-spacer {
-  /* display: none !important; */
   width: 1px !important;
 }
 
-/* Hide search one time uses */
+/*# Section 6 */
+/** Hide search one time uses */
 .search-one-offs {
   display: none !important;
 }
 
-/* Context menu */
+/*# Section 7 */
+/** Context menu */
 #contentAreaContextMenu {
   --panel-background: var(--arrowpanel-background) !important;
   --panel-color: var(--arrowpanel-color) !important;
