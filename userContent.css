@@ -1,3 +1,5 @@
+/*# Section 1 */
+/** Thin scrollbar on all pages */
 :root {
   scrollbar-width: thin !important;
 }
