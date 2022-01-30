@@ -1,6 +1,8 @@
 # FireFix
 
-Small fixes for the FireFox UI to make it more consistant
+Small fixes for the FireFox UI to make it more consistant.
+
+![preview](./images/preview.png)
 
 ## Features
 
@@ -59,3 +61,7 @@ _To disable, open `userContent.css` and remove section 1_
 3. Click on the `Open folder` button at the Profile Folder section.
 4. Copy the `chrome` folder from the project into your profile folder.
 5. Restart FireFox.
+
+![](./images/install/about-support.png)
+
+_Button to your profile folder on `about:support`_
