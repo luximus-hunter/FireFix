@@ -61,17 +61,11 @@ _To disable, open `userContent.css` and remove section 1_
 
 ## Install
 
-1. Download this project with the `Code` button at the top.
+1. Download the code from the [releases tab](https://github.com/luximus-hunter/FireFix/releases/latest).
 2. Go to `about:support` in your URL bar.
 3. Click on the `Open folder` button at the Profile Folder section.
 4. Copy the `chrome` folder from the project into your profile folder.
 5. Restart FireFox.
-
-### Download project
-
-![download](./images/install/download.png)
-
-_Button to download the project_
 
 ### `about:support`
 
