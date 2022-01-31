@@ -47,7 +47,7 @@ _To disable, open `userChrome.css` and remove section 5_
 
 _To disable, open `userChrome.css` and remove section 6_
 
-### Context menu consistency (WIP)
+### Context menu consistency
 
 ![context-menu](./images/features/context-menu.png)
 

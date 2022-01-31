@@ -73,7 +73,9 @@
 
 /*# Section 7 */
 /** Context menu */
-#contentAreaContextMenu {
+/* Global settings */
+#contentAreaContextMenu,
+[class*='menupopup-'] {
   --panel-background: var(--arrowpanel-background) !important;
   --panel-color: var(--arrowpanel-color) !important;
   --panel-border-color: var(--arrowpanel-border-color) !important;
@@ -83,16 +85,24 @@
   box-shadow: none !important;
 }
 
+/* Hide huttons for back, forward, reload, star */
 #context-navigation,
 #context-sep-navigation {
   display: none !important;
 }
 
-[id*='context-'] {
+/* Fix colors and corners */
+[id*='context-'],
+menu,
+menuitem,
+[class*='toggle-'] {
   background-color: transparent !important;
   border-radius: 4px !important;
 }
 
-[id*='context-']:hover {
+[id*='context-']:hover,
+menu:hover,
+menuitem:hover,
+[class*='toggle-']:hover {
   background-color: var(--panel-item-hover-bgcolor) !important;
 }
