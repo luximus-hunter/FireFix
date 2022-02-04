@@ -1,6 +1,6 @@
 # FireFix
 
-Small fixes for the FireFox UI to make it more consistant.
+Small fixes for the FireFox UI to make it more consistent.
 
 ![preview](./images/preview.png)
 
